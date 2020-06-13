@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lux Gallery</title>
+    <link rel="icon" href="img/logoWhite.png">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+    body {   
+        background-color:black;
+        color: white;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #toplayer {
+        position: relative;
+        background-color: transparent;
+    }
+
+    .bottomlayer {
+        position: relative;
+        z-index: -1;
+    }
+
+    .video {
+        width: 25%;
+        height: 100%;
+    }
+
+    #video {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+
+    }
+    .backHome {
+        width: 15%;
+    }
+    .medpic {
+        display: none;
+    }
+    .smpic {
+        display: none;
+    }
+
+    @media only screen and (min-width: 450px) and (max-width: 900px) {
+        .lgpic {
+            display: none;
+        }
+        .medpic {
+            display: block;
+        }
+        .smpic {
+            display: none;
+        }
+        .video {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 450px) {
+        .lgpic {
+            display: none;
+        }
+        .medpic {
+            display: none;
+        }
+        .smpic {
+            display: block;
+        }
+        .video {
+            width: 100%;
+        }
+    }
+    .scroll-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background: rgba(52, 58, 64, 0.5);
+    line-height: 45px;
+    border-radius: 50%;
+    }
+
+    .scroll-to-top:focus, .scroll-to-top:hover {
+    color: white;
+    }
+
+    .scroll-to-top:hover {
+    background: #343a40;
+    }
+
+    .scroll-to-top i {
+    font-weight: 800;
+    }
+
+</style>
+<body id="page-top">
+    <header>
+        <a  href="index.html"><img class="backHome" src="img/logoWhite.png" alt=""></a>
+    </header>
+    <section id="video">
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/ByCqe3_p06o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/hF0PAHezxGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/mJHkQ00yJnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/91pqOxVWzx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </section>
+<!-- SnapWidget -->
+    <section id="toplayer">
+        <div class="bottomlayer">
+            <div class="lgpic">
+                <iframe src="https://snapwidget.com/embed/837626" class="snapwidget-widget" 
+                    allowtransparency="true" frameborder="0" scrolling="no" 
+                    style="border:none; overflow:hidden;  width:100%;">
+                </iframe>
+            </div>
+            <div class="medpic">
+                <iframe src="https://snapwidget.com/embed/838101" class="snapwidget-widget" 
+                allowtransparency="true" frameborder="0" scrolling="no" 
+                style="border:none; overflow:hidden;  width:100%; ">
+                </iframe>
+            </div>
+            <div class="smpic">
+                <iframe src="https://snapwidget.com/embed/838099" class="snapwidget-widget" 
+                    allowtransparency="true" frameborder="0" scrolling="no" 
+                    style="border:none; overflow:hidden;  width:100%; ">
+                </iframe>
+            </div>
+        </div>
+    </section> 
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+      </a>
+</body>
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+
+ <!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+
+<script src="js/script.min.js"></script>
+</html>
