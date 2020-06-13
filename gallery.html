@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lux Gallery</title>
     <link rel="icon" href="img/logoWhite.png">
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  
 </head>
 <style>
     body {   
@@ -108,8 +113,29 @@
     font-weight: 800;
     }
 
+.back-toggle {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 50px;
+  z-index: 999;
+  border-radius: 50%;
+}
+
+.back-toggle:focus, .back-toggle:hover {
+  color: #fff;
+  background: #343a40;
+}
+
 </style>
 <body id="page-top">
+    <a class="back-toggle" href="index.html"><i class="icon-home"></i></a>
+
     <header>
         <a  href="index.html"><img class="backHome" src="img/logoWhite.png" alt=""></a>
     </header>
@@ -152,19 +178,19 @@
         </div>
     </section> 
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-        <i class="fas fa-angle-up"></i>
+        <i class="icon-arrow-up"></i>
       </a>
 </body>
-<script src="https://snapwidget.com/js/snapwidget.js"></script>
+<script src="https://snapwidget.com/js/snapwidget.js" type="text/JavaScript"></script>
 
  <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/jquery/jquery.min.js" type="text/JavaScript"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js" type="text/JavaScript"></script>
 
 <!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/jquery-easing/jquery.easing.min.js" type="text/JavaScript"></script>
 
 <!-- Custom scripts for this template -->
 
-<script src="js/script.min.js"></script>
+<script src="js/script.min.js" type="text/JavaScript"></script>
 </html>

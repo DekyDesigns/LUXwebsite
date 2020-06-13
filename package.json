@@ -47,6 +47,7 @@
         "gulp-rename": "1.4.0",
         "gulp-sass": "^4.1.0",
         "gulp-uglify": "3.0.2",
+        "lato-font": "^3.0.0",
         "merge-stream": "2.0.0"
     }
 }
