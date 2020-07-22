@@ -168,7 +168,7 @@ a:hover, a:focus, a:active {
 
 .masthead {
   height: 100vh;
-  background-image: url(../img/bg-masthead.JPG);
+  background-image: url(../img/bg-masthead.jpg);
   background-attachment: fixed;
   min-height: 30rem;
   position: relative;
@@ -249,7 +249,7 @@ a:hover, a:focus, a:active {
 /*Studio*/
 #studio {
   padding: 5rem 0;
-  background-image: url("../img/bg-callout.jpg");
+  background-image: url(../img/bg-callout.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -397,7 +397,7 @@ a:hover, a:focus, a:active {
   background-image: url(../img/dusty.jpeg);
 }
 .jacob {
-  background-image: url(../img/jacob.JPG);
+  background-image: url(../img/jacob.jpg);
 }
 .jake {
   background-image: url(../img/jake.jpg);
@@ -412,7 +412,7 @@ a:hover, a:focus, a:active {
 
 /* Logo */
 #clients {
-  background-image: url("../img/bg-logo2.jpg");
+  background-image: url(../img/bg-logo2.jpg);
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
