@@ -7,6 +7,8 @@
 body {
   font-family: 'Lato';
   width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   height: 100%;
   color: #fff;
   background-color: black;
@@ -19,20 +21,6 @@ body {
   background-color: black;
 }
 
-.bg1::after {
-  background-image: url(../img/bg-masthead.jpg);
-
-}
-
-.bg2::after {
-  background-image: url(../img/bg-logo2.jpg);
-
-}
-
-.bg3::after {
-  background-image: url(../img/bg-studio.jpeg);
-
-}
 
 
 
@@ -222,6 +210,7 @@ a:hover, a:focus, a:active {
 color: white;
 background: #343a40;
 border-radius: 50px;
+cursor: pointer;
 }
 .scroll-to-top {
   position: fixed;
@@ -242,16 +231,21 @@ border-radius: 50px;
 .scroll-to-top:hover {
   background: #343a40;
   border-radius: 50px;
+  cursor: pointer;
 }
 .scroll-to-top i {
   font-weight: 800;
 }
 
 /* ============Header============= */
-header {
-  background-image: url(../img/bg-masthead.JPG);
-  height: 100vh;
-  background-position: center;
+.parallax-background {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -moz-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 }
 .luxLogo {
   width: 100px;
@@ -259,6 +253,8 @@ header {
   z-index: 5;
 }
 .masthead {
+  background-image: url('../img/bg-masthead.JPG');
+  height: 100vh;
   min-height: 30rem;
   position: relative;
   width: 100%;
@@ -413,6 +409,7 @@ header {
   transition-duration: .25s;
   -webkit-clip-path: inset(0px);
   clip-path: inset(0px);
+  cursor: pointer;
 }
 
 .serviceText {
@@ -505,6 +502,7 @@ header {
   .scale:hover {
     transform: scale(1.5);
     z-index: 5;
+    cursor: pointer;
   }
 }
 
@@ -715,18 +713,31 @@ header {
 
 
 /*Studio*/
+.parallax-background2 {
+  background-position: 50%, 0;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -moz-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
 #studio {
   padding: 5rem 0;
+  background-image: url('../img/bg-studio.jpeg');
 }
+
 .studio {
-  background-color: #00000052;
+  background-color: #000000a1;
+  border-radius: 1%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding-top: 2rem;
+  padding-top: 5rem;
   padding-bottom: 2rem;
 }
 @media (max-width: 550px) {
@@ -774,6 +785,7 @@ header {
   transition-duration: .25s;
   -webkit-clip-path: inset(0px);
   clip-path: inset(0px);
+  cursor: pointer;
 }
 
 .creativeText {
@@ -820,4 +832,5 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #155d74;
   text-decoration: none;
+  cursor: pointer;
 }
