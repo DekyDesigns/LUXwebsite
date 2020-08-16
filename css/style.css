@@ -248,6 +248,11 @@ border-radius: 50px;
 }
 
 /* ============Header============= */
+header {
+  background-image: url(../img/bg-masthead.JPG);
+  height: 100vh;
+  background-position: center;
+}
 .luxLogo {
   width: 100px;
   padding-bottom: 2%;
@@ -353,7 +358,6 @@ border-radius: 50px;
   display: inline;
   align-items: center;
   padding: 5px;
-  height: 100px;
 }
 .slide {
   margin: 0px 10px;
@@ -617,7 +621,7 @@ border-radius: 50px;
 /* ---------Arrow buttons ------- */   
 /* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */ 
 #ninja-slider-pause-play { display:none;}  
-#ninja-slider-prev, #ninja-slider-next{
+#ninja-slider-prev, #ninja-slider-next {
   position: absolute;
   display:inline-block;
   width:42px;
@@ -626,11 +630,11 @@ border-radius: 50px;
   top: 40%; /* not 50% as caption at bottom should be counted.*/
   margin-top:-28px;
   background-color:rgba(0,0,0,0.4);
-  background-color:#ccc\9;/*IE8 hack*/
-  backface-visibility:hidden;
+  /*background-color:#ccc\9;IE8 hack*/
+  backface-visibility: hidden;
   color:white;
   overflow:hidden;
-  white-space:nowrap;
+  white-space: nowrap;
   -webkit-user-select: none;
   user-select:none;
   border-radius:2px;
