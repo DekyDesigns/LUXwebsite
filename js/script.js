@@ -1,6 +1,6 @@
 //Creatives//
 function showText(name) {
-  document.getElementById(name).style.display; = "block";
+  document.getElementById(name).style.display = "block";
 };
 function hideText(name) {
   document.getElementById(name).style.display = "none";
