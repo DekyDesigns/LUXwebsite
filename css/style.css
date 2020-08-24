@@ -1,9 +1,4 @@
-/*!
 
- * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
- */
 body {
   font-family: 'Lato';
   width: 100%;
@@ -14,17 +9,6 @@ body {
   background-color: black;
   text-align: center;
 }
-
-
-
-.static {
-  background-color: black;
-}
-
-
-
-
-
 
 /*next arrows*/
 .nextdemo a {
