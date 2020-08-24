@@ -238,15 +238,6 @@ cursor: pointer;
 }
 
 /* ============Header============= */
-.parallax-background {
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  -moz-transform: translate3d(0,0,0);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
 .luxLogo {
   width: 100px;
   padding-bottom: 2%;
@@ -254,6 +245,10 @@ cursor: pointer;
 }
 .masthead {
   background-image: url('../img/bg-masthead.JPG');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   min-height: 30rem;
   position: relative;
@@ -363,6 +358,13 @@ cursor: pointer;
 
 
 /*Services*/
+#services {
+  background-image: url(../img/bg-logo2.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .service-icon {
   background-color: #fff;
   color: black;
@@ -374,7 +376,6 @@ cursor: pointer;
   font-size: 6rem;
   box-shadow: 3px 5px 11px 0px black;
 }
-
 #serviceCardFlex {
   display: flex;
   flex-direction: row;
@@ -384,7 +385,6 @@ cursor: pointer;
   margin-right: 0;
   margin-left: 0;
 }
-
 .serviceCard {
   display: flex;
   justify-content: center;
@@ -401,7 +401,6 @@ cursor: pointer;
   padding: 0px 10px 0px 10px;
   font-size: 15px;
 }
-
 .serviceCard:hover {
   box-shadow: none;
   background-blend-mode: overlay;
@@ -411,19 +410,16 @@ cursor: pointer;
   clip-path: inset(0px);
   cursor: pointer;
 }
-
 .serviceText {
   margin-left: 25px;
   margin-right: 25px;
   display: none;
 }
-
 #serviceTitle {
   margin-left: 25px;
   margin-right: 25px;
   display: block;
 }
-
 .touring {
   background-image: url(../img/touring.PNG);
 }
@@ -452,7 +448,6 @@ cursor: pointer;
   justify-content: center;
   align-items: center;
 }
-
 .scale {
   display: block;
   position: relative;
@@ -464,7 +459,6 @@ cursor: pointer;
   background-size: contain;
   margin: 0;
 }
-
 .gOne{
   background-image: url(../img/gallery1.jpeg);
 }
@@ -713,42 +707,29 @@ cursor: pointer;
 
 
 /*Studio*/
-.parallax-background2 {
-  background-position: 50%, 0;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  -moz-transform: translate3d(0,0,0);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
 #studio {
-  padding: 5rem 0;
-  background-image: url('../img/bg-studio.jpeg');
+  background-image: url(../img/bg-studio.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.studio {
-  background-color: #000000a1;
-  border-radius: 1%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding-top: 5rem;
-  padding-bottom: 2rem;
+.fadedbg {
+  background-color: #39393978;
+  padding-top: 2%;
+  padding-bottom: 5%;
 }
+ 
+.features {
+  margin-left: 10%;
+}
+
 @media (max-width: 550px) {
   .features {
     margin-left: 0;
   }
-  .container.studio {
-    box-shadow: 5px 5px 5px transparent;
-  }
 }
-
 
 /* Creatives */
 #creativeCardFlex {
@@ -824,7 +805,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #155d74;
+  background-color: #797979;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }

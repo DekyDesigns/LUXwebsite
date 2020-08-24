@@ -1,23 +1,3 @@
-$(function() {
-  var $el = $('.parallax-background');
-  $(window).on('scroll', function () {
-      var scroll = $(document).scrollTop();
-      $el.css({
-          'background-position':`50% ${.2 * scroll}px`
-      });
-  });
-});
-
-$(function() {
-  var $el = $('.parallax-background2');
-  $(window).on('scroll', function () {
-      var scroll = $(document).scrollTop();
-      $el.css({
-          'background-position':`50% ${.05 * scroll}px`
-      });
-  });
-});
-
 //Creatives//
 function showText(name) {
   document.getElementById(name).style.display = "block";
