@@ -1,9 +1,4 @@
-/*!
 
- * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
- */
 body {
   font-family: 'Lato';
   width: 100%;
@@ -14,16 +9,6 @@ body {
   background-color: black;
   text-align: center;
 }
-
-
-
-.static {
-  background-color: black;
-}
-
-
-
-
 
 
 /*next arrows*/
@@ -88,15 +73,6 @@ body {
     opacity: 0;
   }
 }
-
-
-
-
-
-
-
-
-
 
 h2 {
   font-size: 30px;
@@ -359,7 +335,7 @@ cursor: pointer;
 
 /*Services*/
 #services {
-  background-image: url(../img/bg-logo2.jpg);
+  background-image: url(../img/bg-logo2.JPG);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -779,7 +755,7 @@ cursor: pointer;
   background-image: url(../img/dusty.jpeg);
 }
 .jacob {
-  background-image: url(../img/jacob.jpg);
+  background-image: url(../img/jacob.JPG);
 }
 .jake {
   background-image: url(../img/jake.jpg);
