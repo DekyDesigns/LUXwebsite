@@ -790,3 +790,15 @@ footer.footer .social-link:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) , screen and (max-height: 500px) {
+  .masthead {
+    background-attachment: local;
+  }
+  #services {
+    background-attachment: local;
+  }
+  #studio {
+    background-attachment: local;
+  }
+}
