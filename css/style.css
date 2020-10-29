@@ -1,6 +1,6 @@
 
 body {
-  font-family: Helvetica, sans-serif, Arial;
+  font-family: Lato, Arial, Helvetica, sans-serif;
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -269,6 +269,7 @@ cursor: pointer;
 }
 
 
+
 /* ============About============= */
 .about {
   font-size: 18px;
@@ -339,6 +340,8 @@ cursor: pointer;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 .service-icon {
   background-color: #fff;
@@ -357,8 +360,8 @@ cursor: pointer;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin-right: 0;
-  margin-left: 0;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 .serviceCard {
   display: flex;
@@ -370,7 +373,7 @@ cursor: pointer;
   background-position: center;
   width: 18rem;
   height: 18rem;
-  box-shadow: 10px 10px 15px black;
+  box-shadow: 3px 3px 6px black;
   border: 1px solid black;
   background-color: black;
   padding: 0px 10px 0px 10px;
@@ -412,6 +415,12 @@ cursor: pointer;
   #serviceCardFlex {
     margin-left: 200px;
     margin-right: 200px;
+  }
+}
+
+@media (max-width: 750px) {
+  .serviceCard {
+    border: 2px solid white;
   }
 }
 
@@ -696,8 +705,14 @@ cursor: pointer;
   padding-bottom: 5%;
 }
  
-.features {
-  margin-left: 10%;
+.studio {
+  font-size: 14px;
+  border-left: 2px solid white;
+  padding: 10px;
+  width: 350px;
+  height: 90%;
+  margin: 5px;
+  text-align: start;
 }
 
 @media (max-width: 550px) {
@@ -727,7 +742,7 @@ cursor: pointer;
   background-position: center;
   width: 310px;
   height: 310px;
-  box-shadow: 10px 10px 15px black;
+  box-shadow: 3px 3px 6px black;
   border: 1px solid black;
   background-color: #000000d6;
   padding: 0px 10px 0px 10px;
@@ -768,6 +783,7 @@ cursor: pointer;
 }
 
 
+
 /* Footer */
 footer.footer {
   padding-top: 3rem;
@@ -789,4 +805,16 @@ footer.footer .social-link:hover {
   background-color: #155d74;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) , screen and (max-height: 500px) {
+  .masthead {
+    background-attachment: local;
+  }
+  #services {
+    background-attachment: local;
+  }
+  #studio {
+    background-attachment: local;
+  }
 }
